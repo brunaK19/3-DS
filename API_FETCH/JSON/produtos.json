@@ -1,0 +1,83 @@
+[
+    {
+      "codigo": "001",
+      "nome": "Smartphone",
+      "descricao": "Smartphone de última geração",
+      "preco": 1500.00,
+      "fornecedor": "Tecnocom",
+      "url_imagem": "IMG/smartphone.png"
+    },
+    {
+      "codigo": "002",
+      "nome": "Notebook",
+      "descricao": "Notebook leve e potente",
+      "preco": 2500.00,
+      "fornecedor": "ElectroTech",
+      "url_imagem": "IMG/notebook.png"
+    },
+    {
+      "codigo": "003",
+      "nome": "Headphones",
+      "descricao": "Fones de ouvido sem fio",
+      "preco": 100.00,
+      "fornecedor": "AudioSolutions",
+      "url_imagem": "IMG/headset.png"
+    },
+    {
+      "codigo": "004",
+      "nome": "Smart TV",
+      "descricao": "TV 4K com tecnologia HDR",
+      "preco": 1200.00,
+      "fornecedor": "VisualTech",
+      "url_imagem": "IMG/smart tv.png"
+    },
+    {
+      "codigo": "005",
+      "nome": "Câmera DSLR",
+      "descricao": "Câmera profissional para fotografia",
+      "preco": 1800.00,
+      "fornecedor": "PhotoPro",
+      "url_imagem": "IMG/camera.png"
+    },
+    {
+      "codigo": "006",
+      "nome": "Impressora a Laser",
+      "descricao": "Impressora rápida e de alta qualidade",
+      "preco": 400.00,
+      "fornecedor": "PrintTech",
+      "url_imagem": "IMG/impressora.png"
+    },
+    {
+      "codigo": "007",
+      "nome": "Mouse Gamer",
+      "descricao": "Mouse com alta precisão para jogos",
+      "preco": 60.00,
+      "fornecedor": "GamingGear",
+      "url_imagem": "IMG/mouse.png"
+    },
+    {
+      "codigo": "008",
+      "nome": "Teclado Mecânico",
+      "descricao": "Teclado resistente e responsivo",
+      "preco": 80.00,
+      "fornecedor": "TechKey",
+      "url_imagem": "IMG/teclado.png"
+    },
+    {
+      "codigo": "009",
+      "nome": "Relógio Inteligente",
+      "descricao": "Relógio com monitoramento de atividades",
+      "preco": 130.00,
+      "fornecedor": "WearablesCo",
+      "url_imagem": "IMG/relogio.png"
+    },
+    {
+      "codigo": "010",
+      "nome": "Caixa de Som Bluetooth",
+      "descricao": "Caixa de som portátil com conexão Bluetooth",
+      "preco": 70.00,
+      "fornecedor": "AudioTech",
+      "url_imagem": "IMG/caixa de som.png"
+    }
+  ]
+  
