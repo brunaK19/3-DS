@@ -17,12 +17,11 @@ function fetchProducts() {
       const productElement = document.createElement('div');
       productElement.className = 'product';
 
-      productElement.innerHTML = `
+      productElement.innerHTML = ` <a href="desc.html?codigo=${product.codigo}">
       <img src="${product.url_imagem}" alt="${product.name}" />
         <h2>${product.nome}</h2>
-        <p>${product.descricao}</p>
         <span>Preço: $${product.preco}</span>
-        <p>${product.fornecedor}</p>
+        </a>
       `;
 
       productListElement.appendChild(productElement);
