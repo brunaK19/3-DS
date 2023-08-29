@@ -1,6 +1,8 @@
-# 3-DS
-Atividades feitas no terceiro ano de Desenvolvimento de sistemas
-
-Oie! tudo bem?
-
-Sou estudante de uma escola técnica e nesse repositório você verá as atividades que fiz durante o terceiro ano do curso Técnico de Desenvolvimento de Sistemas ;) 
+```sh
+yarn install
+npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+npm install @react-navigation/stack
+npx expo install react-native-gesture-handler
+npm install react-native-stars --save
+yarn add @react-navigation/drawer
+```
