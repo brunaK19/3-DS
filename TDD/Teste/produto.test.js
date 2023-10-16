@@ -1,6 +1,6 @@
 const Produto = require('./Produto/produto');
 
-test('Deve criar um produto com atributos corretos', () => {
+test('atributos corretos', () => {
   const produto = new Produto('Produto A', 50, 'Quadrado', '123', 'Fabricante XYZ');
 
   expect(produto.nome).toBe('Produto A');
