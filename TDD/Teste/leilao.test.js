@@ -21,5 +21,19 @@ test('calcular a média dos lances', () => {
 
   const media = leilao.calcularMediaDosLances();
 
-  expect(media).toBe(123.33); // Valor aproximado
+  expect(media).toBe(123.33); 
+});
+
+const Usuario = require('./usuario');
+const Leiloeiro = require('./leiloeiro');
+
+test('Deve adicionar usuários ao leilão', () => {
+  const leilao = new Leilao();
+  const usuario1 = new Usuario('User1');
+  const usuario2 = new Usuario('User2');
+
+  leilao.adicionarUsuario(usuario1);
+  leilao.adicionarUsuario(usuario2);
+
+  expect(leilao.usuarios.length).toBe(2);
 });
