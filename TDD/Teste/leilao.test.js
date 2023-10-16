@@ -24,8 +24,8 @@ test('calcular a média dos lances', () => {
   expect(media).toBe(123.33); 
 });
 
-const Usuario = require('./usuario');
-const Leiloeiro = require('./leiloeiro');
+const Usuario = require('./Produto/usuario');
+const Leiloeiro = require('./Produto/leiloeiro');
 
 test('Deve adicionar usuários ao leilão', () => {
   const leilao = new Leilao();
