@@ -1,4 +1,4 @@
-const Leilao = require('./leilao');
+const Leilao = require('./Produto/leilao');
 
 test('Deve retornar os 3 maiores lances', () => {
   const leilao = new Leilao();
