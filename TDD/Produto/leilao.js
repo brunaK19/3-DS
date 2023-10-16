@@ -1,11 +1,16 @@
+
 class Leilao {
-  constructor(produto) {
-    this.produto = produto;
-    this.lance = new ProdutoLance();
+  constructor() {
+    this.lances = [];
   }
 
-  getInfoProduto() {
-    return this.produto;
+  darLance(valor) {
+    this.lances.push(valor);
+    this.lances.sort((a, b) => b - a);
+  }
+
+  getTopThreeBids() {
+    return this.lances.slice(0, 3);
   }
 }
 
