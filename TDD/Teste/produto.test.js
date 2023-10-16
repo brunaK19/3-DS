@@ -6,7 +6,7 @@ test('Deve criar um produto com atributos corretos', () => {
   expect(produto.nome).toBe('Produto A');
   expect(produto.precoMinimo).toBe(50);
   expect(produto.descricao).toBe('Quadrado');
-   expect(produto.fabricante).toBe('Fabricante XYZ');
+  expect(produto.fabricante).toBe('Fabricante XYZ');
 });
 
 
