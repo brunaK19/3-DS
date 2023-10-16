@@ -1,3 +1,4 @@
+
 class Produto {
   constructor(nome, precoMinimo, descricao, codigo, fabricante) {
     this.nome = nome;
